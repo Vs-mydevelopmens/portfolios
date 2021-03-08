@@ -328,7 +328,6 @@ body.lock {
   padding-bottom: calc(50px + 30 * ((100vw - 320px) / 1600));
   position: relative;
   z-index: 3;
-  min-height: 100vh;
 }
 
 .fullscreen-image {
