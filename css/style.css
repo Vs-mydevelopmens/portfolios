@@ -1125,15 +1125,16 @@ textarea.input {
           justify-content: center;
   margin-top: calc(50px + 30 * ((100vw - 320px) / 1600));
   margin-bottom: calc(30px + 40 * ((100vw - 320px) / 1600));
-  margin-left: -18px;
-  margin-right: -18px;
+  margin-left: calc(-12px + -6 * ((100vw - 320px) / 1600));
+  margin-right: calc(-12px + -6 * ((100vw - 320px) / 1600));
 }
 
 .controls__column {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
-  padding: 0px 18px;
+  padding-right: calc(12px + 6 * ((100vw - 320px) / 1600));
+  margin-left: calc(12px + 6 * ((100vw - 320px) / 1600));
 }
 
 .control {
